@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                background-image: url("../../Images/SLIKA.jpeg");
+    
+    background-size: cover;
+    background-position: center center;
+            }
+        
+            table {
+                border: none;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 150px;
+            }
+        
+            td {
+                width: 300px;
+            }
+        
+            img {
+                height: 300px;
+                width: 200px;
+            }
+        
+            .tranzicija td:hover {
+                transform: scale(1.2);
+                margin: 0 30px;
+            }
+        
+            p {
+                position: absolute;
+                margin-left: 5px;
+                font-weight: bold;
+                font-size: 0.5cm;
+                color: black;
+            }
+        
+            .banner ul {
+                list-style: none;
+                color: #fff;
+            }
+        
+            .header{
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+    height: 10%;
+}
+.logo{
+    float: left;
+    width: 45%;
+    text-transform: uppercase;
+}
+.logo h2{
+    padding-left: 60px;
+    color: #fff;
+}
+.menu-area{
+    width: 55%;
+    display: block;
+    overflow: hidden;
+}
+.menu-area ul li:hover{
+    color: cyan;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.banner{
+    height: 90%;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    }
+    
+.header ul{
+    list-style: none;
+    color: #fff;
+}
+.header ul li{
+    float: left;
+    font-size: 16px;
+    display: block;
+    padding: 5px 18px;
+}
+.banner ul li {
+                float: left;
+                font-size: 16px;
+                display: block;
+                padding: 5px 18px;
+            }
+a {
+                text-decoration: none;
+                color: white;
+            }
+        a:hover {
+                color: cyan;
+                transition: .5s;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <header class="header">
+        <nav class="menu">
+            <div class="logo">
+                <a href="../Pocetna/Pocetna.html">
+                    <h2>Movies</h2>
+                </a>
+               
+            </div>
+            <div class="menu-area">
+                <ul>
+                    <li><a href="../Pocetna/Pocetna.html"></a>Home</li>
+                    <li><a href="../Filmovi/Filmovi.html">Movies</a></li>
+                    <li><a href="../Mapa/Mapa.html">Map</a></li>
+                    <li><a href="../Kviz/jjjj.html">Quiz</a></li>
+                    <li><a href="../Forma/Projekat forma.html">Sugestije</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <body>
+        <div class="tranzicija"> 
+        <table>
+            <tr>
+                <td><a href="../CvAleksandraa/CvAleksandraa.html"><img  src="../../Images/Aleksandra.jpg"> <p>Aleksandra Koprivica</p></a></td>
+                <td><a href="../CvIgor/CV igor.html"><img  src="../../Images/Igor.jpeg"> <p style="margin-left: 40px;">Igor Gvozdenac</p></a></td>
+                <td><a href="../CvMilica/CV.html"><img src="../../Images/slika2.jpeg"> <p style="margin-left: 50px;">Milica Aleksić</p></a></td>
+            </tr>
+         </table>
+        </div>
+    </body>
+</html>

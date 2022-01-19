@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400&display=swap');
+
+        h3 {
+            background-color: lightskyblue;
+            padding-left: 15px;
+            color: mediumblue;
+
+        }
+
+        .sadrzaj {
+            background: rgb(71, 70, 70, 0.7);
+            margin: auto;
+            width: 900px;
+            font-family: 'Dongle', sans-serif;
+            font-size: 25px;
+
+        }
+
+        h1 {
+            background-color: lightskyblue;
+            padding-left: 15px;
+            color: mediumblue;
+
+        }
+
+        ul {
+            list-style-type: "*";
+        }
+
+        .slika {
+
+            margin: auto;
+            display: block;
+            width: 170px;
+            height: 250px;
+            border-radius: 10px;
+
+        }
+
+        .gallery {
+
+            text-align: center;
+            margin: auto;
+        }
+
+        .galerija {
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            border-radius: 10px;
+            opacity: 0.7;
+            width: 150px;
+            height: 200px;
+        }
+
+        .galerija:hover {
+            transform: scale(1.05);
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-bottom: 10px;
+            opacity: 1;
+
+        }
+
+        .tabnaslov {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        table,
+        tr,
+        td {
+
+            border: solid blue 1px;
+            border-collapse: separate;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-right: 10px;
+            padding-left: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: lightgray;
+            border-radius: 25px;
+            color: mediumblue;
+
+        }
+
+        td,
+        tr {
+
+            background-color: lightblue;
+            border-radius: 5px;
+        }
+
+        body {
+
+            background-image: url(Slike/pozadina.jpg);
+            background-size: 200%;
+            color: white;
+            padding-left: 15px;
+            background-image: url("../../Images/SLIKA.jpeg");
+        }
+
+        caption {
+            background-color: lightskyblue;
+        }
+
+        footer {
+            background-color: rgb(52, 158, 224);
+            text-align: center;
+        }
+
+        p {
+            padding-left: 15px;
+        }
+        .header{
+    display: flex;
+}
+
+.menu{
+    width: 100%;
+    height: 10%;
+}
+.logo{
+    float: left;
+    width: 45%;
+    text-transform: uppercase;
+}
+.logo h2{
+    padding-left: 60px;
+    color: blue;
+}
+.menu-area{
+    width: 55%;
+    display: block;
+    overflow: hidden;
+}
+.menu-area ul li:hover{
+    color: cyan;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.header ul{
+    list-style: none;
+    color: #fff;
+}
+.header ul li{
+    float: left;
+    font-size: 16px;
+    display: block;
+    padding: 5px 18px;
+}
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <nav class="menu">
+          <div class="logo">
+            <a href="../Pocetna/Pocetna.html">
+              <h2>Movies</h2>
+            </a>
+    
+          </div>
+          <div class="menu-area">
+            <ul>
+              <li><a href="../AboutUs/About us.html">About us</a></li>
+    
+    
+            </ul>
+          </div>
+        </nav>
+      </header>
+    <div class="sadrzaj">
+
+
+        <h1>Igor Gvozdenac</h1>
+        <div>
+            <img src="../Images/Igor.jpeg" class="slika">
+            <p>Imam 18 godina, trenutno sam student na smeru Inzenjerstvo informacionih sistema na FTN-u, zavrsio sam
+                osnovnu skolu Petefi Sandor, i Gimnaziju Svetozar Markovic</p>
+        </div>
+
+        <h3>
+            Obrazovanje
+        </h3>
+        <ul>
+            <li><b>Osnovna skola:</b></li>
+            <ul>
+                <li>Petefi Sandor, Novi Sad</li>
+            </ul>
+            <hr>
+            <li><b>Srednja skola:</b></li>
+            <ul>
+                <li>Gimnazija Svetozar Markovic, Novi Sad</li>
+            </ul>
+            <hr>
+            <li><b>Fakultet:</b></li>
+            <ul>
+                <li>FTN, Novi Sad</li>
+            </ul>
+        </ul>
+
+        <h3>Osnovni podaci i kontakt</h3>
+        <table>
+
+
+
+            <tr>
+                <td>Ime:</td>
+                <td>Igor</td>
+
+            </tr>
+            <tr>
+                <td>Prezime:</td>
+                <td>Gvozdenac</td>
+            </tr>
+
+            <tr>
+                <td>Datum rodjenja:</td>
+                <td>11.02.2003.</td>
+            </tr>
+            <tr>
+                <td>Mesto rodjenja</td>
+                <td>Novi Sad</td>
+            </tr>
+            <tr>
+                <td colspan="2" class="tabnaslov">Kontakt</td>
+            </tr>
+            <tr>
+                <td>Broj telefona:</td>
+                <td>+381655701923</td>
+            </tr>
+            <tr>
+                <td>Mail:</td>
+                <td>gvozdenaci@gmail.com</a></td>
+            </tr>
+            <tr>
+                <td>Instagram:</td>
+                <td><a href="https://www.instagram.com/igor_gvozdenac/" target="-blank"> @igor_gvozdenac</a></td>
+            </tr>
+        </table>
+
+        <div class="gallery">
+            <h3>Galerija</h3>
+            <img src="../Images/Igor2.jpg" class="galerija" alt="Igor1">
+            <img src="../Images/Igor3.jpg" class="galerija" style="width: 200px; height: 200px;" alt="Igor2">
+            <img src="../Images/slika3.jpg" class="galerija" style="height: 200px; width: 350px;" alt="NS">
+            <br>
+            <img src="../Images/slika4.jpg" class="galerija" style="height: 200px; width: 300px;" alt="gimnazija SM">
+            <img src="../Images/slika5.jpg" class="galerija" style="height: 200px; width: 300px;" alt="Ftn1">
+            <img src="../Images/slika6.jpg" class="galerija" alt="FTN">
+
+
+        </div>
+
+</body>
+<footer>
+    Igor Gvozdenac
+</footer>
+</div>
+
+</html>
